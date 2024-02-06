@@ -1,0 +1,56 @@
+#main {
+    text-align: center;
+    width: 50%;
+    background-color: #9CBC2B;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+div {
+    border: 1px solid white;
+    background-color: #B9CF6A;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #394311;
+    color: white;
+}
+
+h2 {
+    color: #394311;
+}
+.leftside{
+    display: flex;
+    align-items: flex-start;
+    font-size: 25px;
+}
+.inpt{
+width: 500px;
+font-size:35px ;
+margin: -20px ;
+border-radius: 8px;
+border-color: white;
+}
+.inptt{
+    width: 500px;
+font-size:20px ;
+margin: -20px ;
+border-radius: 8px;
+border-color: white;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor:pointer ;
+}

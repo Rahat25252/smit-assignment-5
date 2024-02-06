@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <center>
+        <div id="main">
+            <h2 class="leftside">
+                Step 1: Your details
+            </h2>
+            <br>
+            <form>
+                <div>
+                    <label for="Full name" class="leftside">
+                        Name
+                    </label>
+                
+                    <input class="inpt" type="text" name="Full name" id="Full name" placeholder="First and last name" maxlength="18"
+                        required>
+                    <br><br>
+                </div>
+
+                <div>
+                    <label for="email" class="leftside">
+                        Email
+                    </label>
+                    
+                    <input  class="inpt" type="email" name="email" id="email" placeholder="example@domain.com"
+                        pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+                    <br><br>
+
+                </div>
+
+                <div>
+                    <label for="phone number" class="leftside">
+                        Phone
+                    </label>
+                    
+                    <input class="inpt" type="number" name="phone number" id="phone number" placeholder="Eg, +447500000000" required>
+                    <br><br>
+                </div>
+            </form>
+
+            <!-- Step 2 begins here -->
+
+            <h2 class="leftside">
+                Step 2: Delivery address
+            </h2>
+            <br>
+
+            <form>
+                <div>
+                    <label for="address"class="leftside" >
+                     Address
+                    </label>
+                       
+                    <textarea class="inptt" name="address" id="address" cols="22" rows="8" required></textarea>
+                    <br><br>
+                </div>
+
+                <div>
+                    <label for="post code" class="leftside">
+                        Post code
+                    </label>
+                
+                    <input class="inpt" type="number" name="post code" id="post code" required>
+                    <br><br>
+                </div>
+
+                <div>
+                    <label for="country" class="leftside">
+                        Country
+                    </label>
+                
+                    <input class="inpt" type="text" name="country" id="country" required>
+                </div>
+            </form>
+
+            <!-- Step 3 -->
+
+            <h2 class="leftside">Step 3: Card details</h2>
+            <br>
+            <form>
+                <div>
+                    <label for="card" class="leftside">
+                        Card type
+                    </label>
+                    
+                    <input type="radio" name="card" id="card"> <img src="images/VISA-logo.png" alt="Visa" width="60"
+                        height="20"> &nbsp; VISA
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="card" id="card"><img src="images/AmExlogo.jpg" alt="amex" width="40"
+                        height="30"> &nbsp;AmEx
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="card" id="card"><img src="images/mastercardlogo.jpg" alt="master card"
+                        width="50" height="25"> &nbsp;Mastercard
+                    <br><br>
+                </div>
+                <div>
+                    <label for="Full name" class="leftside">
+                        Card number
+                    </label>
+                
+                    <input class="inpt" type="text"  maxlength="18"
+                        required>
+                    <br><br>
+                </div>
+
+                <div>
+                    <label for="email" class="leftside">
+                        Security code 
+                    </label>
+                    
+                    <input  class="inpt" type="text" 
+                        required>
+                    <br><br>
+
+                </div>
+
+                <div>
+                    <label for="phone number" class="leftside">
+                        Name on card
+                    </label>
+                    
+                    <input class="inpt" type="text"  placeholder="Exact name as on the card" required>
+                    <br><br>
+                </div>
+                <br>
+                <br>
+                <button class="btn">
+                    BUY IT!
+                </button>
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
